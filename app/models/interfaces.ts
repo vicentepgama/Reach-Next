@@ -1,5 +1,3 @@
-import internal from "stream";
-
 export interface Product {
     id: number;
     nome: string;
@@ -10,9 +8,9 @@ export interface Product {
   
   export interface Tecnologia{
     id:number;
-    title:String;
+    title: string;
     image: string;
     description: string;
-    rating: internal;
+    rating: number;
   }
   

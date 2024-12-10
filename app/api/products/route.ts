@@ -1,17 +1,6 @@
-import { NextResponse } from 'next/server';
+export async function GET() {
+  return fetch('https://deisishop.pythonanywhere.com/products')
+  .then(res => res.json())
+  .then(data => Response.json(data))
 
-export function GET() {
-  return fetch('https://deisishop.pythonanywhere.com/products', {
-    method: 'GET',
-  })
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => NextResponse.json(data))
-    .catch((error) => {
-      return NextResponse.json(
-        { error: 'Erro Detetado' },
-        { status: 500 }
-      );
-    });
 }
