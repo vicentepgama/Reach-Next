@@ -3,7 +3,7 @@
 import React from 'react';
 import Card from "@/componentes/Card/Card";
 import produtos from "@/app/data/produtos.json";
-import { Product } from '../models/interfaces';
+import { Product } from "@/app/models/interfaces";
 
 export default function ProdutosPage() {
   return (

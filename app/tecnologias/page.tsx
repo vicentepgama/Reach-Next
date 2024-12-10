@@ -3,7 +3,7 @@
 import React from 'react';
 import Card from '@/componentes/Card/Card';
 import tecnologias from '@/app/data/tecnologias.json';
-import { Product } from '../models/interfaces';
+import { Product } from "@/app/models/interfaces";
 
 export default function TecnologiasPage() {
   return (

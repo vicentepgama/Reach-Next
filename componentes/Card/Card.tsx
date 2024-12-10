@@ -1,8 +1,6 @@
-'use client';
-
 import React from 'react';
 import Image from 'next/image';
-import { Product } from "@/app/models/interfaces";
+import { Product } from '@/app/models/interfaces';
 
 interface CardProps {
   product: Product;
@@ -10,17 +8,16 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ product }) => {
   return (
-    <div className="divCard">
+    <div className="card">
       <Image
         src={product.imageUrl}
         alt={product.nome}
         width={200}
         height={200}
-        className="estaticaCard"
+        className="card-image"
       />
-      <h2 className="nomeCard">{product.nome}</h2>
-      <p className="descricaoCard text-gray-600">{product.descricao}</p>
-      <p className="precoCard">€{product.preco}</p>
+      <h2>{product.nome}</h2>
+      <p>{product.descricao}</p>
     </div>
   );
 };
