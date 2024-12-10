@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/componentes/Header/Header"; 
 import Footer from "@/componentes/Footer/Footer"; 
+import Link from 'next/link'; 
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,7 +33,17 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header /> 
-        <main>{children}</main>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/produtos">Produtos</Link> {}
+            </li>
+            <li>
+              <Link href="/tecnologias">Tecnologias</Link> {}
+            </li>
+          </ul>
+        </nav>
+        <main>{children}</main> 
         <Footer /> 
       </body>
     </html>

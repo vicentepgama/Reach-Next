@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "title": "HTML",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+      "description": "Linguagem de marcação para estruturação de conteúdo na web.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      "description": "Linguagem de estilo para design e layout de páginas web.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "title": "JavaScript",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "description": "Linguagem de programação para criar interatividade em páginas web.",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "title": "JSON",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg",
+      "description": "Formato leve para troca de dados entre sistemas.",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "title": "API RESTful",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/REST_API_logo.png",
+      "description": "Arquitetura para comunicação entre sistemas utilizando HTTP.",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "title": "Swagger",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png",
+      "description": "Ferramenta para documentação e teste de APIs.",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "title": "GitHub",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+      "description": "Plataforma para hospedagem e colaboração de projetos.",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "title": "Codespaces",
+      "image": "https://avatars.githubusercontent.com/github/codespaces",
+      "description": "Ambiente de desenvolvimento na nuvem integrado ao GitHub.",
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "title": "GitHub Pages",
+      "image": "https://avatars.githubusercontent.com/github/github-pages",
+      "description": "Serviço para hospedar páginas web diretamente de repositórios GitHub.",
+      "rating": 4
+    },
+    {
+      "id": 10,
+      "title": "React.js",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "description": "Biblioteca JavaScript para construir interfaces de usuário.",
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "title": "Next.js",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      "description": "Framework React para produção com renderização no servidor.",
+      "rating": 5
+    },
+    {
+      "id": 12,
+      "title": "Vercel",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Vercel_logo.svg",
+      "description": "Plataforma para hospedagem de projetos baseados em React e Next.js.",
+      "rating": 5
+    }
+  ]
+  
