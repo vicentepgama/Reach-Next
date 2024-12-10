@@ -1,5 +1,4 @@
 'use client';
-
 import React from 'react';
 import Card from "@/componentes/Card/Card";
 import produtos from "@/app/data/produtos.json";
