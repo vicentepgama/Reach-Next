@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "HTML",
-    "image": "/images/image1.png",
+    "image": "@/app/data/images/image1.png",
     "description": "Linguagem de marcação para estruturação de conteúdo na web.",
     "rating": 5
   },

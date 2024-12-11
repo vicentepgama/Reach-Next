@@ -10,9 +10,13 @@ export default function ProdutosPage() {
     <div>
       <h1 >Produtos Disponíveis</h1>
       <div>
+      
         {JSON.parse(JSON.stringify(produtos)).map((produto: Product) => (
+          
           <Card key={produto.id} produto={produto} adicionarAoCesto={produto} removerDoCesto={produto} />
+          
         ))}
+        
       </div>
     </div>
   );
