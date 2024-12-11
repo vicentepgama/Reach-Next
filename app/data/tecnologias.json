@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "HTML",
-    "image": "@/app/data/images/image1.png",
+    "image": "https://www.google.com/imgres?q=html&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F61%2FHTML5_logo_and_wordmark.svg&imgrefurl=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FHTML5&docid=wPvAo3rwSNozcM&tbnid=O2LAft90i-2uhM&vet=12ahUKEwic-6n_rZ-KAxVRQPEDHeP2A6oQM3oECBUQAA..i&w=800&h=800&hcb=2&ved=2ahUKEwic-6n_rZ-KAxVRQPEDHeP2A6oQM3oECBUQAA",
     "description": "Linguagem de marcação para estruturação de conteúdo na web.",
     "rating": 5
   },

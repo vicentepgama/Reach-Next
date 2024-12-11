@@ -18,7 +18,7 @@
 
 body {
   font-family: 'Verdana', 'Geneva', sans-serif;
-  background-color: #f39c12; /* Laranja vibrante */
+  background-color: #5f17ff ; 
   color: var(--text-light);
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ h1 {
   margin: 0 0 20px 0;
   font-weight: 900;
   text-transform: uppercase;
-  color: #E74C3C; /* Vermelho forte */
+  color: #ff00e9; /* Vermelho forte */
 }
 
 .containerSection {
