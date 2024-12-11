@@ -35,4 +35,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-https://upgraded-parakeet-69vvrg4j66r6f497w-3000.app.github.dev
+https://react-next-git-main-vicentepgamas-projects.vercel.app
