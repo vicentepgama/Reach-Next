@@ -13,7 +13,7 @@ const Card = ({ produto, adicionarAoCesto, removerDoCesto }) => (
 
     <section>
       {produto.type!=="tecnologia"&&(
-        <p>Preço: {produto.price}€</p>
+        <p className={styles['preco']}>Preço: {produto.price}€</p>
       )}
       
       <p className={styles['description-product']}>{produto.description}</p>
