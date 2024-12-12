@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Card.module.css'; 
 
-const Card = ({ produto, adicionarAoCesto, removerDoCesto,Tecnologia }) => (
+const Card = ({ produto, adicionarAoCesto, removerDoCesto }) => (
   <article className={styles['grid-item']}>
     <header>
       <h2 className={styles['title-product']}>{produto.title}</h2>
