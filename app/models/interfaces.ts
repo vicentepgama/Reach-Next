@@ -4,6 +4,7 @@ export interface Product {
     descricao: string;
     preco: number;
     imageUrl: string;
+    type: string
   }
   
   export interface Tecnologia{
@@ -12,5 +13,6 @@ export interface Product {
     image: string;
     description: string;
     rating: number;
+    type: string
   }
   

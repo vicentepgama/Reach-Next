@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Card.module.css'; 
 
-const Card = ({ produto, adicionarAoCesto, removerDoCesto }) => (
+const Card = ({ produto, adicionarAoCesto, removerDoCesto,Tecnologia }) => (
   <article className={styles['grid-item']}>
     <header>
       <h2 className={styles['title-product']}>{produto.title}</h2>
@@ -12,7 +12,10 @@ const Card = ({ produto, adicionarAoCesto, removerDoCesto }) => (
     </figure>
 
     <section>
-      <p>Preço: {produto.price}€</p>
+      {produto.type!=="tecnologia"&&(
+        <p>Preço: {produto.price}€</p>
+      )}
+      
       <p className={styles['description-product']}>{produto.description}</p>
     </section>
 

@@ -1,5 +1,6 @@
+/* Header Styles */
 .header {
-    background-color: #4A90E2; 
+    background-color: #4A90E2;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,7 +10,7 @@
 }
 
 .title-header {
-    color: #F7F7F7; 
+    color: #F7F7F7;
     margin-left: 30px;
     font-weight: 900;
     font-size: 1.8rem;
@@ -28,15 +29,17 @@
 .element-header:hover {
     background-color: #333;
     color: #FFF;
+}
 
 .header p {
     margin-left: 30px;
     font-size: 1rem;
-    color: #E5E5E5; 
+    color: #E5E5E5;
 }
 
+/* Title Page Styles */
 #title-page {
-    color: #2C3E50; 
+    color: #2C3E50;
     font-weight: 700;
     text-align: center;
     font-size: 2.5rem;
@@ -45,6 +48,7 @@
     border-bottom: 2px solid #2C3E50;
 }
 
+/* Grid Container Styles */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -53,8 +57,8 @@
 }
 
 .grid-item {
-    background-color: #FAFAFA; 
-    border: 2px solid #4A90E2; 
+    background-color: #FAFAFA;
+    border: 2px solid #4A90E2;
     border-radius: 12px;
     padding: 20px;
     display: flex;
@@ -80,7 +84,7 @@
 }
 
 .title-product {
-    color: #1A5276; 
+    color: #1A5276;
     font-weight: 800;
     font-family: 'Verdana', sans-serif;
     text-align: center;
@@ -88,7 +92,7 @@
 }
 
 .description-product {
-    background-color: #E8F8F5; 
+    background-color: #5f17ff;
     text-align: center;
     font-style: italic;
     margin-bottom: 20px;
@@ -97,8 +101,9 @@
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Basket (Cesto) Styles */
 .cesto {
-    background-color: #2ECC71; 
+    background-color: #000000;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -108,13 +113,13 @@
 }
 
 #title-cesto {
-    color: #FFF; 
+    color: #FFF;
     font-weight: 900;
     text-align: center;
     font-size: 2rem;
     margin-top: 40px;
-    grid-column: 1 / -1; 
-    text-shadow: 2px 2px #27AE60; 
+    grid-column: 1 / -1;
+    text-shadow: 2px 2px #27AE60;
 }
 
 .product-cesto {
@@ -125,8 +130,7 @@
     margin-top: 15px;
     grid-column: 1 / -1;
     padding: 10px;
-    background-color: #AED6F1; 
+    background-color: #AED6F1;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 }

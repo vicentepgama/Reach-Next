@@ -4,83 +4,95 @@
     "title": "HTML",
     "image": "/images/image1.png",
     "description": "Linguagem de marcação para estruturação de conteúdo na web.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   },
   {
     "id": 2,
     "title": "CSS",
     "image": "/images/image2.png",
     "description": "Linguagem de estilo para design e layout de páginas web.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   },
   {
     "id": 3,
     "title": "JavaScript",
     "image": "/images/image3.png",
     "description": "Linguagem de programação para criar interatividade em páginas web.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   },
   {
     "id": 4,
     "title": "JSON",
     "image": "/images/image4.png",
     "description": "Formato leve para troca de dados entre sistemas.",
-    "rating": 4
+    "rating": 4,
+    "type": "tecnologia"
   },
   {
     "id": 5,
     "title": "API RESTful",
     "image": "/images/image5.png",
     "description": "Arquitetura para comunicação entre sistemas utilizando HTTP.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   },
   {
     "id": 6,
     "title": "Swagger",
     "image": "/images/image6.png",
     "description": "Ferramenta para documentação e teste de APIs.",
-    "rating": 4
+    "rating": 4,
+    "type": "tecnologia"
   },
   {
     "id": 7,
     "title": "GitHub",
     "image": "/images/image7.png",
     "description": "Plataforma para hospedagem e colaboração de projetos.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   },
   {
     "id": 8,
     "title": "Codespaces",
     "image": "/images/image8.png",
     "description": "Ambiente de desenvolvimento na nuvem integrado ao GitHub.",
-    "rating": 4
+    "rating": 4,
+    "type": "tecnologia"
   },
   {
     "id": 9,
     "title": "GitHub Pages",
     "image": "/images/image9.png",
     "description": "Serviço para hospedar páginas web diretamente de repositórios GitHub.",
-    "rating": 4
+    "rating": 4,
+    "type": "tecnologia"
   },
   {
     "id": 10,
     "title": "React.js",
     "image": "/images/image10.png",
     "description": "Biblioteca JavaScript para construir interfaces de usuário.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   },
   {
     "id": 11,
     "title": "Next.js",
     "image": "/images/image11.png",
     "description": "Framework React para produção com renderização no servidor.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   },
   {
     "id": 12,
     "title": "Vercel",
     "image": "/images/image12.png",
     "description": "Plataforma para hospedagem de projetos baseados em React e Next.js.",
-    "rating": 5
+    "rating": 5,
+    "type": "tecnologia"
   }
 ]
