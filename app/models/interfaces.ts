@@ -1,11 +1,16 @@
-export interface Product {
-    id: number;
-    nome: string;
-    descricao: string;
-    preco: number;
-    imageUrl: string;
-    type: string
-  }
+interface Product {
+  id: number;
+  title: string;
+  price: number;
+  description: string;
+  category: string;
+  image: string;
+  rating: {
+    rate: number;
+    count: number;
+  };
+}
+
   
   export interface Tecnologia{
     id:number;
